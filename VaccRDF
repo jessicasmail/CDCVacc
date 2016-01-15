@@ -1,0 +1,67 @@
+@prefix Vacc: <http://jessica.smail.com/Vacc#> .
+
+Vacc:HepB a Vacc:Immunization ;
+	Vacc:HasName Vacc:"Hepatitis B" ;
+	Vacc:HasDoses: Vacc:"3" ;
+	Vacc:1stDoseAt Vacc:Birth ;
+	Vacc:2ndDoseAt Vacc:1mo ;
+	Vacc:2ndDoseAt Vacc:2mo ;
+	Vacc:3rdDoseAt Vacc:6mo ;
+	Vacc:3rdDoseAt Vacc:9mo ;
+	Vacc:3rdDoseAt Vacc:12mo ;
+	Vacc:3rdDoseAt Vacc:15mo .
+Vacc:RV1 a Vacc:Immunization ;
+	Vacc:HasName Vacc:"Rotavirus 2-dose series" ;
+	Vacc:HasDoses Vacc:"2" ;
+	Vacc:1stDoseAt Vacc:2mo ;
+	Vacc:2ndDoseAt Vacc:4mo .
+Vacc:DtaP a Vacc:Immunization ;
+	Vacc:HasName Vacc:"Tetanus, diphtheria, & acellular pertussis" ;
+	Vacc:HasDoses Vacc:"5" ;
+	Vacc:1stDoseAt Vacc:2mo ;
+	Vacc:2ndDoseAt Vacc:4mo ;
+	Vacc:3rdDoseAt Vacc:6mo ;
+	Vacc:4thDoseAt Vacc:15mo ;
+	Vacc:4thDoseAt Vacc:18mo ;
+	Vacc:5thDoseAt Vacc:4-6y .
+Vacc:HiB a Vacc:Immunization ;
+	Vacc:HasName Vacc:"Haemophilous infuenzae type b" ;
+	Vacc:HasDoses Vacc:"4" ;
+	Vacc:1stDoseAt Vacc:2mo ;
+	Vacc:2ndDoseAt Vacc:4mo ;
+	Vacc:3rdDoseAt Vacc:6mo ;
+	Vacc:3rdDoseAt Vacc:12mo ; 
+	Vacc:4thDoseAt Vacc:12mo ;
+	Vacc:3rdDoseAt Vacc:15mo ;
+	Vacc:4thDoseAt Vacc:15mo .
+Vacc:PCV13 a Vacc:Immunization ;
+	Vacc:HasName Vacc:"Pneumococcal conjugate" ;
+	Vacc:HasDoses Vacc:"4" ;
+	Vacc:1stDoseAt Vacc:2mo ;
+	Vacc:2ndDoseAt Vacc:4mo ;
+	Vacc:3rdDoseAt Vacc:6mo ;
+	Vacc:4thDoseAt Vacc:12mo ;
+	Vacc:4thDoseAt Vacc:15mo .
+Vacc:IPV a Vacc:Immunization ;
+	Vacc:HasName Vacc:"Inactivated poliovirus" ;
+	Vacc:HasDoses Vacc:"3" ;
+	Vacc:1stDoseAt Vacc:2mo ;
+	Vacc:2ndDoseAt Vacc:4mo ;
+	Vacc:3rdDoseAt Vacc:6mo ;
+	Vacc:3rdDoseAt Vacc:9mo ;
+	Vacc:3rdDoseAt Vacc:12mo ;
+	Vacc:3rdDoseAt Vacc:15mo ;
+	Vacc:3rdDoseAt Vacc:18mo ;
+	Vacc:4thDoseAt Vacc:4-6y .
+Vacc:Birth a Vacc:Age .
+Vacc:1mo a Vacc:Age .
+Vacc:2mo a Vacc:Age .
+Vacc:4mo a Vacc:Age .
+Vacc:6mo a Vacc:Age .
+Vacc:9mo a Vacc:Age .
+Vacc:12mo a Vacc:Age .
+Vacc:15mo a Vacc:Age .
+Vacc:18mo a Vacc:Age .
+Vacc:4-6y a Vacc:Age .
+
+
